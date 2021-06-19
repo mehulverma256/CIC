@@ -1,0 +1,100 @@
+body 
+{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial;
+    
+  flex-wrap: wrap;
+  align-content: center;
+  
+    background-image: url("a.jpg");
+    background-color: #cccccc;
+    font-stretch: expanded;
+}
+
+h1
+{
+    color: #fafafa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.maindiv
+{
+    background-color: #000000;
+    color: #fafafa;
+    width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* #result
+{
+    display: none;
+} */
+
+
+.contents
+{
+    margin-left: 100px;
+    
+}
+
+table td
+{
+    padding-bottom: 22px;
+}
+
+#compute
+{
+    margin-bottom: 35px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 40px;
+    width: 125px;
+    align-items: center;
+    border-radius: 5px;
+  justify-content: center;
+    
+}
+#principal{
+    height: 25px;
+    width: 190px;
+}
+
+#years{
+    height: 35px;
+    width: 200px;
+}
+
+#footer
+{
+    margin-top: 10px;
+}
+
+.labels
+{
+    width: 120px;
+    font-weight: bold;
+    padding-right:12px;
+    
+}
+
+.highlight
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+#disclaimer
+{
+    font-size: 70%;
+    text-align: left;
+}

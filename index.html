@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <title>Simple Interest Calculator</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <br><br><br><br><br><br><br><br><br><br>
+        <div class="maindiv">
+            <h1>Compound Interest Calculator</h1>
+            <br>
+            <div class="contents">
+                <table id="table">
+                    <tbody>
+                        <tr>
+                            <td class="labels">Principal Amount</td>
+                            <td>
+                                <input type="number" id="principal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Interest Rate (%)</td>
+                            <td>
+                                <input type="number" id="rate">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="labels">No. of Years</td>
+                            <td>
+                                <input type="number" id="years">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+    
+                <button id="compute" onclick="compute()">Calculate Interest</button> <br>
+                
+                <span id="result">
+                </span>
+            </div>
+
+            <div id="disclaimer">
+                *starting month of financial year varies from country to country so to avoid confusion only year is given.
+            </div>
+
+            
+        </div>
+    </body>
+</html>
